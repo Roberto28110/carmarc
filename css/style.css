@@ -40,6 +40,7 @@ body {
      font-weight: normal;
      overflow-x: hidden;
      background:#000;
+     
 }
 
 a {
@@ -441,7 +442,7 @@ a.readmore_bt {
 .header {
      font-family: poppins;
      padding: 10px 0px;
-    background:#116466;
+    background:#639df0;
      background-repeat: no-repeat;
 background-size: 100% 100%;
 background-position: center center;
@@ -1074,7 +1075,7 @@ ul.top_icon li a {
 }
 
 
-}
+
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -1323,7 +1324,7 @@ ul.top_icon li a {
      overflow: hidden;
      clear: both;
      height: 600px;
-     opacity: 0.5;
+     opacity: 0.7;
 }
 .top-banner-slider .heroslider {
      margin: 0px;
@@ -1350,7 +1351,7 @@ ul.top_icon li a {
      padding-left: 0;
      padding-right: 0;
      z-index: 5;
-     opacity: 0.5;
+     opacity: 0.7;
 }
 .swiper-container {
      width: 100%;
@@ -1668,26 +1669,30 @@ font-weight: 500;
 }
 #myCarousel a.carousel-control-prev {display: none;}
 #myCarousel a.carousel-control-next {display: none;}
-.carousel-indicators .active {background-color:#4bc714;}
+.carousel-indicators .active {background-color:#4fcbf0;}
 
 .banner-main .carousel-caption span {
      font-size: 50px;
-     font-weight: bold;
+     font-family: "Baskervville SC", serif;
+     font-weight: 400;
+     font-style: normal;
      line-height: 60px;
-     color: #4bc714;
+     color: #cdd2d8;
      text-transform: uppercase;
      padding-bottom: 10px;
      display: block;
 }
 
 .banner-main .carousel-caption h1 {
-     color:greenyellow;
+     color:#4fcbf0;
      font-size: 110px;
      line-height: 84px;
      padding-bottom: 20px;
      text-transform: uppercase;
-     font-family: "Righteous", sans-serif;
+     font-family: "Baskervville SC", serif;
      font-weight: 400;
+     font-style: normal;
+    
      font-style: normal;
 
      animation:mover-izquierda-derecha 2s 1;
@@ -1716,7 +1721,7 @@ font-weight: 500;
 
 .banner-main .carousel-caption .buynow  {
 border: #fff solid 1px;
-background: #4bc714;
+background:#4fcbf0 ;
 width: 190px;
 padding: 8px 0;
 display: inline-block;
@@ -1731,7 +1736,7 @@ margin-right: 20px;
 
 .banner-main .carousel-caption .buynow:hover {
      border: #052501 solid 1px;
-     background: #052501;
+     background: hsl(213, 25%, 34%) ;
      color: #fff;
 }
 
@@ -1787,10 +1792,11 @@ color: #fff;
 }
 /** end banner **/
 .black {
-    color: #63ce33;
+    color: #4fcbf0;
     font-weight: 208;
     animation:mover-izquierda-derecha 2s 1;
      animation-fill-mode: forwards; 
+     text-decoration-line: underline overline;
         
 }
 
@@ -1813,7 +1819,7 @@ color: #fff;
     padding: 0px 0px 6px 0px;
 text-transform: uppercase;
 font-weight: 500;
-color:greenyellow;
+color:#4fcbf0;
 line-height: 46px;
 font-family: 'Montserrat', sans-serif;
 font-size: 50px;
@@ -1846,13 +1852,13 @@ margin: 0 auto;
 .about .about_box h2 {
      font-weight: 500;
      font-size: 43px;
-     color: #163f03;
+     color: #5c6857;
      line-height: 55px;
      padding-bottom: 7px;
     display: block;
     text-transform: uppercase;
         padding: 0px 0px 6px 0px;
-            border-bottom: #163f03 solid 1px;
+            
 }
 
 .about .about_box p {
@@ -1866,7 +1872,7 @@ margin: 0 auto;
          color: #ffffff;
     font-size: 17px;
     line-height: 29px;
-    background: #4bc714;
+    background: #4fcbf0;
     border: #052501 solid 1px;
     padding: 12px 40px;
     display: inline-block;
@@ -1876,7 +1882,7 @@ border-radius: 18px;
 }
 .about .about_box a:hover {
     color: #fff;
-    background:#052501;
+    background:hsl(213, 25%, 34%);
     border: #4bc714 solid 1px;
 }
 .about_img {margin-top: 25px;}
@@ -1924,12 +1930,12 @@ border-radius: 18px;
 
 
 .offer .offer-bg {
-     background: #116466;
+     background: #639df0;
      text-align: center;
      padding: 60px 0px;
    
 }
-.offer .offer-bg .offer_box {text-align: center;}
+.offer .offer-bg .offer_box {text-align: center justify;}
 .offer .offer-bg .offer_box figure {margin: 0;}
 .offer .offer-bg .offer_box figure img {
     width: 100%;
@@ -1939,6 +1945,7 @@ border-radius: 18px;
      font-weight: 500;
      color: #fff;
     padding-bottom: 30px;
+
 }
 .offer .offer-bg .offer_box p {padding-top: 35px; font-size: 17px; line-height: 23px; color: #fff;}
 
@@ -1948,7 +1955,7 @@ max-width: 212px;
 margin: 0 auto;
 margin-top: 0px;
 display: block;
-background: #4bc714;
+background:  #4fcbf0;
 color: #000 !important;
 padding: 12px 0px;
 width: 100%;
@@ -1959,7 +1966,7 @@ margin-top: -100px;
 }
 
 .read-more:hover {
-     background: #30880d;
+     background: hsl(213, 25%, 34%);
      color: #fff !important;
 }
 
@@ -1985,14 +1992,14 @@ margin-top: -100px;
 bottom: 0;
 text-align: center;
 width: 100%;
-background: #116466;
+background: black;
 padding: 10px 13px 13px 13px;
 font-size: 30px;
 line-height: 40px;
 font-weight: 500;
-color: #fff;
+color:white;
 box-sizing: border-box;
-opacity: 0.5;
+opacity: 0.7;
 }
 .product .product_box figure img {width: 100%; height: 248px;}
 
@@ -2112,9 +2119,10 @@ transform: skew(190deg);
 .main_form {
     position: absolute;
     z-index: 990;
-    background: #052501;
+    background:  #639df0;
    margin-top: 80px;
     padding: 60px 40px;
+    opacity: 0.9;
     
 }
 .main_form :focus {
@@ -2150,7 +2158,7 @@ transform: skew(190deg);
     float: left;
     margin: 0 auto;
     display: block;
-    background: greenyellow;
+    background: #4fcbf0;
     color: #000;
     max-width: 165px;
     padding: 13px 0px;
@@ -2160,14 +2168,14 @@ transform: skew(190deg);
 }
 
 .send:hover {
-    background: #116466;
+    background: hsl(213, 25%, 34%);
     color: #fff;
 }
 
 
 /** end contact **/
 
-.footer {background: #116466; padding: 90px 0px;}
+.footer {background:  #639df0; padding: 90px 0px;}
 
 
  
@@ -2202,11 +2210,11 @@ margin-top: 4px;
      margin-top: -34px;
 }
  ul.Links_footer li a:hover{
-    color: #30880d;
+    color: #4fcbf0;
 }
  ul.Links_footer li {
     padding-bottom: 15px;
-    color: #3e7f21;
+    color: #4fcbf0;
 }
  
  
@@ -2235,7 +2243,7 @@ font-size: 29px;
 font-weight: 500;
 padding-top: 15px;
 padding-bottom: 3px;
-border-bottom: #3e7f21 solid 4px;
+border-bottom:#4fcbf0 solid 4px;
 margin-bottom: 20px;
 width: 226px;
  }
@@ -2251,20 +2259,20 @@ line-height: 30px;}
 }
  .footer .address .submit-btn {
    padding: 8px 45px;
-border: #30880d solid 1px;
-background:greenyellow ;
+border: white solid 1px;
+background:#4fcbf0 ;
 color: #fff;
 font-weight: 500;
 font-size: 19px;
 border-radius: 10px;
 }
  .footer .address .submit-btn:hover {
-     background: #fff;
+     background:hsl(213, 25%, 34%);
      border: #fff solid 1px;
-     color: #30880d;
+     color: #d0d9db;
 }
 .copyright {
-     background: #30880d;
+     background: #4fcbf0;
      padding: 20px 0px 20px 0;
 }
 .copyright p {
@@ -2439,6 +2447,42 @@ border-radius: 10px;
 	}
 }
 /*Fin-Cards*/
+
+
+
+   /*servicios lista*/
+
+.animated-container {
+     background:#555;
+       padding: 80px;
+       padding: 80px;
+       border-radius: 10px;
+       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+       opacity: 0;
+       transform: translateY(20px);
+       animation: fadeInUp 1s forwards;
+   
+   }
+   
+   .service-list {
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+   }
+   
+   .service-list li {
+       margin: 10px 0;
+       font-size: 25px;
+       color: #66ece6;
+       list-style-image: url("images/icono.png");
+   }
+   
+   @keyframes fadeInUp {
+       to {
+           opacity: 1;
+           transform: translateY(0);
+       }
+   }
 
 .special-page .relative  {text-align:center !important; }
 
